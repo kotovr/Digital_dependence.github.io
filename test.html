@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Цифрова залежність</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="img/logo.png" type="image/png">
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav">
+				<div class="wrapper nav__wrapper">
+					<div class="nav__logo">
+						<img src="img/logo.png" class="nav__image logo">
+						<div class="nav__title">Цифрова залежність</div>
+					</div>
+					<input type="checkbox" id="buttom">	
+					<label class="burger" for="buttom"></label>
+					<div class="mobilemenu">
+						<a href="index.html" class="mobile_link">Головна</a>
+						<a href="signs.html" class="mobile_link">Типові ознаки</a>
+						<a href="dependence_lvl.html" class="mobile_link">Рівні залежності</a>
+						<a href="research.html" class="mobile_link">Дослідження</a>
+						<a href="test.html" class="mobile_link mobile_link__ative">Пройти тест</a>
+					</div>
+					<div class="nav__menu">
+						<a class="nav__link" href="index.html">Головна</a>
+						<a class="nav__link" href="signs.html">Типові ознаки</a>
+						<a class="nav__link" href="dependence_lvl.html">Рівні залежності</a>
+						<a class="nav__link" href="research.html">Дослідження</a>
+						<a href="test.html"><svg class="liquid-button" data-text="ПРОЙТИ ТЕСТ" data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500" data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#8EA7FF" data-color2="#FF577F" data-color3="#ff8faa"></svg></a>
+					</div>
+				</div>
+			</nav>
+			<header class="header">
+				<div class="wrapper">
+					<div class="header__right">
+						<h1 class="header__title">Тест вкаже на всі аспекти, на які варто звернути свою увагу, щоб недопустити чи позбутися залежності </h1>
+						<div class="header__hr"></div>
+						<p class="header__subtitle">Перевір чи ти залежний гаджетів!</p>
+						<script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js'></script>
+					    <script  src="js/index.js"></script>
+					</div>
+					<div class="header__image"><img src="img/find.png" width="800px"></div>
+				</div>
+			</header>
+			<div class="content">
+				<div class="wrapper wrapper__content wrapper__test">
+					
+						<h3>Чи присутнє у вас бажання постійно оновлювати ваш телефон чи комп’ютер?</h3>
+						<input type="radio" name="question1" id="question1_1">
+						<label for="question1_1">Абсолютно немає</label>
+						<input type="radio" name="question1" id="question1_2">
+						<label for="question1_2"> До тих пір поки не зламається</label>
+						<input type="radio" name="question1" id="question1_3">
+						<label for="question1_3">Рідко з'являється бажання</label>
+						<input type="radio" name="question1" id="question1_4">
+						<label for="question1_4">Часто міняю</label>
+						<input type="radio" name="question1" id="question1_5">
+						<label for="question1_5">Міняю дуже часто, тому що не можу жити без нового гаджета</label>
+						<h3> На вашу думку чи залежні ви від телефона, комп’ютера, планшета і т.д?</h3>
+						<input type="radio" name="question2" id="question2_1 questions">
+						<label for="question2_1">Ні</label>
+						<input type="radio" name="question2" id="question2_2">
+						<label for="question2_2">Не знаю</label>
+						<input type="radio" name="question2" id="question2_3">
+						<label for="question2_3">Трохи</label>
+						<input type="radio" name="question2" id="question2_4">
+						<label for="question2_4">Так</label>
+					
+					<ul>
+						<h3>Скільки часу ви проводите час за комп’ютером?</h3>
+						<li>до 1 год / немає комп’ютера</li>
+						<li>від 2 год до 3 год</li>
+						<li>від 3 год до 4 год</li>
+						<li>від 5 год до 6 год</li>
+						<li>від 7 год до 8 год</li>
+						<li>більше 8 год на день</li>
+					</ul>
+					<ul>
+						<h3> Чи була у вас нестача сну через велику кількість часу проведену в інтернеті?</h3> 
+						<li>Ніколи</li>
+						<li> Рідко</li>
+						<li>Час від часу</li>
+						<li>Часто</li>
+						<li>Завжди</li>
+					</ul>
+					<ul>
+						<h3>Як часто ви відчуваєте агресію після тривалої відсутності гаджетів та Інтернету?</h3>
+						<li>Ніколи</li>
+						<li>Інколи</li>
+						<li>Рідко</li>
+						<li>Часто</li>
+						<li>Постійно</li>
+					</ul>
+					<ul>
+						<h3>Чи втрачали сприйняття часу під час перебування в інтернеті?</h3>
+						<li>Ніколи </li>
+						<li>Іноді</li>
+						<li>Часто </li>
+						<li>Постійно</li>
+					</ul> 
+					<ul>
+						<h3>Чи бували у Вас невдалі спроби обмежити час в гаджетах?</h3>
+						<li>Ніколи</li>
+						<li>Іноді</li>
+						<li>Часто</li>
+						<li>Дуже часто</li>
+						<li>Завжди</li>
+					</ul>
+					<ul>
+						<h3>Як часто ви приховували від рідних ваш час проведений в інтернеті?</h3>
+						<li>Ніколи</li>
+						<li>Рідко</li>
+						<li>Іноді</li>
+						<li>Часто</li>
+						<li>Дуже часто</li>
+					</ul>
+					<ul>
+						<h3>Чи є у вас бажання знаходитись в інтернеті?</h3>
+						<li>Ніколи</li>
+						<li>Рідко</li>
+						<li>Іноді</li>
+						<li>Часто</li>
+						<li>Дуже часто</li>
+					</ul>
+					<ul> 
+						<h3>Чи відчуваєте ви обурення коли вам обмежують доступ до інтернету?</h3>
+						<li>Ні</li>
+						<li>Трохи</li>
+						<li>Так</li>
+					</ul>
+					<ul>
+						<h3>Як за часто ви робите перехід між сторінками в інтернеті, не досягаючи вашої мети?</h3>
+						<li>Ніколи</li>
+						<li>Рідко</li>
+						<li>Іноді</li>
+						<li>Часто</li>
+						<li>Дуже часто</li>
+					</ul> 
+					<ul>
+						<h3>Чи помічали ви за собою, те, що під час розмови ви час від часу відволікаєтесь на ваш телефон?</h3>
+						<li>Ніколи</li>
+						<li>Рідко</li>
+						<li>Іноді</li>
+						<li>Часто</li>
+						<li>Дуже часто</li>
+					</ul>
+					<ul>
+						<h3>Чи користуєтесь ви гаджетами під час зустрічі з кимось?</h3>
+						<li>Ні</li>
+						<li>Тільки якщо це дуже важливо</li>
+						<li>Так, постійно</li>
+					</ul>
+					<ul>
+						<h3>Чи була у вас спроба обмежити себе від проведення в інтернеті?</h3>
+						<li>Так, тепер я проводжу менше часу в інтернеті</li>
+						<li>Ні, я взагалі не проводжу час в інтернеті</li>
+						<li>Так, але не вдало, нічого не змінилося</li>
+						<li>Так, після цього сиджу в інтернеті частіше</li>
+						<li>Ні, інтернет це моє життя, я не збираюся зменшувати час проведення в ньому</li>
+						<li>Ні, і на мою думку потрібно збільшити час проведення в ньому</li>
+					</ul>
+					<ul>
+						<h3>Як часто в інтернеті ви зустрічаєте не оптимізовані, не зручні сайти для користування, від чого пропадає бажання перебувати на них?</h3>
+						<li>Ніколи</li>
+						<li>Рідко</li>
+						<li>Іноді</li>
+						<li>Часто</li>
+						<li>Дуже часто</li>
+					</ul>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="wrapper footer__wrapper">
+					<div class="footer__logo">
+						<img src="img/logo.png" alt="">
+						<p>Цифрова залежність</p>
+					</div>
+					<div class="footer__menu">
+						<div class="footer__links">
+							<p>Цифровий детокс</p>
+							<a href="index.html#problems">Проблеми цифрової залежності</a>
+							<a href="index.html#problemsw/heals">Проблеми зі здоров’ям</a>
+							<a href="index.html#online_dependetn">Залежність від онлайну</a>
+							<a href="index.html#howtoprotect">Як боротися</a>
+						</div>
+						<div class="footer__links">
+							<p>Цифрова залежність</p>
+							<a href="signs.html">Типові ознаки</a>
+							<a href="test.html">Тест на залежність</a>
+							<a href="research.html">Дослідження</a>
+							<a href="dependence_lvl.html">Цифровий Рівні залежності</a>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<h2>© ПП “ІНФОЛОГОС”, 2007 - 2020</h2>
+						<div class="social">
+							<a href=""><img src="img/telegram.png"></a>
+							<a href=""><img src="img/twitter.png"></a>
+							<a href="https://www.facebook.com/ifkompschool/"><img src="img/facebook.png"></a>
+							<a href="https://www.instagram.com/kompschool/?hl=uk"><img src="img/instagram.png"></a>
+						</div>
+					</div>
+					<img src="img/logo.png" alt="" class="footer__background">
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
